@@ -1,0 +1,15 @@
+<p>employee-details works!</p>
+<h2>Here is the details of employees in tabular form</h2>
+<br>
+<table>
+  <tr>
+    <td>ID</td>
+    <td>NAME</td>
+    <td>DEPT</td>
+  </tr>
+  <tr *ngFor="let officeWorker of theEmployeeList">
+    <td>{{officeWorker.id}}</td>
+    <td>{{officeWorker.name}}</td>
+    <td>{{officeWorker.dept}}</td>
+  </tr>
+</table>
